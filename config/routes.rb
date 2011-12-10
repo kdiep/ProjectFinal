@@ -1,5 +1,6 @@
 ProjectFinal::Application.routes.draw do
-  get "users/new"
+  resources :users
+  #get "users/new"
   
   match '/signup', :to => 'user#new'
   
