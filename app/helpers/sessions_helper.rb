@@ -13,6 +13,9 @@ module SessionsHelper
     cookies.delete(:remember_token)
     current_user = nil
   end
+  def current_user
+    @current_user ||= user_from_remember_token
+  end
   private
     def user_from_remember_token
       User.authenticate_with_salt(*remember_token)
