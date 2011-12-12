@@ -2,14 +2,14 @@
 width: 710px;
 }
 body {
-background: #696;
+background: #071d69;
 }
 header {
 padding-top: 20px;
 }
 header img {
 padding: 1em;
-background: #fff;
+background: #db5a6e;
 }
 section {
 margin-top: 1em;
@@ -67,7 +67,7 @@ display: block;
 text-align: center;
 width: 190px;
 color: #fff;
-background: #c9f;
+background: #4571da;
 font-size: 150%;
 font-weight: bold;
 padding: 20px;
